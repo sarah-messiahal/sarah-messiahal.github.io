@@ -119,6 +119,7 @@
     });
   });
   gsap.from('.section-head > *, .phones-head > *', { y: 50, opacity: 0, stagger: .1, duration: .9, ease: 'power3.out', scrollTrigger: { trigger: '.section-head', start: 'top 80%' } });
+  gsap.from('.feat', { y: 40, opacity: 0, stagger: .06, duration: .7, ease: 'power3.out', scrollTrigger: { trigger: '.feats', start: 'top 85%' } });
   gsap.from('.phone', { y: 120, opacity: 0, stagger: .12, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: '.phones', start: 'top 85%' } });
 
   // ── Evidence: count up the stats ──

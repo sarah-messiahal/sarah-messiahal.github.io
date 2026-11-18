@@ -207,3 +207,14 @@ em{font-family:var(--serif);font-style:italic;font-weight:400}
   *,*::before,*::after{animation:none!important;transition:none!important}
   .reveal-words .w{opacity:1}
 }
+
+/* ── Darify capabilities ── */
+.feats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-bottom:clamp(90px,12vw,150px)}
+.feat{background:var(--ink);padding:26px 22px 28px;transition:background .35s}
+.feat:hover{background:#171715}
+.feat svg{width:30px;height:30px;fill:none;stroke:var(--yellow);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.feat h4{font-family:var(--anton);font-weight:400;font-size:26px;line-height:1;margin:18px 0 8px;letter-spacing:.01em}
+.feat p{font-size:14.5px;color:#a9a49a;line-height:1.45}
+.timeline__lead{margin-top:10px;font-size:16px;max-width:720px}
+@media (max-width:980px){.feats{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.feats{grid-template-columns:1fr}}
