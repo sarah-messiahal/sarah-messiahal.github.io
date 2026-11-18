@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#0c0c0c">
 <link rel="preload" href="fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/instrument-serif-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body class="is-loading">
 
@@ -139,24 +139,63 @@
 
     <article class="case case--flip">
       <div class="case__media laptop">
-        <div class="laptop__screen"><video muted loop playsinline preload="none" poster="assets/work/darify-new-projects.jpg" data-src="assets/work/darify-new-projects.mp4"></video></div>
+        <div class="laptop__screen"><video muted loop playsinline preload="none" poster="assets/work/darify-maps.jpg" data-src="assets/work/darify-maps.mp4"></video></div>
         <div class="laptop__base"></div>
       </div>
       <div class="case__info">
         <span class="case__num">02</span>
-        <h3>Darify — search, filters &amp; maps</h3>
-        <p>Search results with server-backed counts that always match the list, a filters panel that answers instantly, and a Property Finder-style map: click to zoom, search this area, or draw a shape to find homes inside it.</p>
-        <ul class="chips"><li>Google Maps</li><li>Caching</li><li>REST APIs</li><li>UX</li></ul>
+        <h3>Darify — draw-to-search maps</h3>
+        <p>A Property Finder-style map: price pins, click to zoom, search this area, or draw a shape with the pencil to see only the homes inside it. Listing pages show what's nearby on their own map.</p>
+        <ul class="chips"><li>Google Maps</li><li>Custom drawing</li><li>AWS Lambda</li><li>UX</li></ul>
       </div>
     </article>
 
     <article class="case">
+      <div class="case__media laptop">
+        <div class="laptop__screen"><video muted loop playsinline preload="none" poster="assets/work/darify-transactions.jpg" data-src="assets/work/darify-transactions.mp4"></video></div>
+        <div class="laptop__base"></div>
+      </div>
+      <div class="case__info">
+        <span class="case__num">03</span>
+        <h3>Darify — DLD transactions</h3>
+        <p>Dubai property transactions from DLD data: sales and rentals, market stats, trend charts, and search by area or building, plus the transaction history for each listing.</p>
+        <ul class="chips"><li>DLD data</li><li>Charts</li><li>Search</li><li>REST APIs</li></ul>
+      </div>
+    </article>
+
+    <article class="case case--flip">
+      <div class="case__media laptop">
+        <div class="laptop__screen"><video muted loop playsinline preload="none" poster="assets/work/darify-ai-chat.jpg" data-src="assets/work/darify-ai-chat.mp4"></video></div>
+        <div class="laptop__base"></div>
+      </div>
+      <div class="case__info">
+        <span class="case__num">04</span>
+        <h3>Darify — Ask Darify (AI)</h3>
+        <p>An AI property chatbot. Ask in plain words, get answers and matching homes as cards right in the chat, with conversation history and limits for guests.</p>
+        <ul class="chips"><li>AI chatbot</li><li>Chat UI</li><li>Property search</li></ul>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case__media laptop">
+        <div class="laptop__screen"><video muted loop playsinline preload="none" poster="assets/work/darify-new-projects.jpg" data-src="assets/work/darify-new-projects.mp4"></video></div>
+        <div class="laptop__base"></div>
+      </div>
+      <div class="case__info">
+        <span class="case__num">05</span>
+        <h3>Darify — new projects</h3>
+        <p>Off-plan projects from the Reelly API: unit types, payment plans, handover dates and developers, with filters and counts that always match the list.</p>
+        <ul class="chips"><li>Reelly API</li><li>Filters</li><li>Caching</li></ul>
+      </div>
+    </article>
+
+    <article class="case case--flip">
       <div class="case__media laptop laptop--wide">
         <div class="laptop__screen"><video muted loop playsinline preload="none" poster="assets/work/darify-web-cards.jpg" data-src="assets/work/darify-web-cards.mp4"></video></div>
         <div class="laptop__base"></div>
       </div>
       <div class="case__info">
-        <span class="case__num">03</span>
+        <span class="case__num">06</span>
         <h3>Darify — featured homes</h3>
         <p>Listing cards where the agent and agency flip together on one shared clock. Images decode at the size they're shown, which made the home page noticeably lighter and smoother to scroll.</p>
         <ul class="chips"><li>Animation</li><li>Image decoding</li><li>Design system</li></ul>
@@ -167,14 +206,9 @@
       <span class="kicker">More I built at Darify</span>
       <h3 class="anton mid">BEHIND <em class="serif">the screens.</em></h3>
     </div>
-    <div class="feats">
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v12H3zM8 20h8M12 16v4"/></svg><h4>Agent CRM</h4><p>Dashboard for listings, leads, and agent &amp; agency profiles.</p></div>
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5M4 19h16M8 15l3-4 3 2 5-6"/></svg><h4>DLD transactions</h4><p>Sales &amp; rentals, market stats, trend charts, area and building search.</p></div>
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V9l8-5 8 5v12M9 21v-6h6v6"/></svg><h4>Off-plan projects</h4><p>Reelly API: unit types, payment plans, handover dates, developers.</p></div>
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4zM8 10h8M8 13h5"/></svg><h4>Ask Darify (AI)</h4><p>Property chatbot with conversation history and guest limits.</p></div>
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 10h18M7 15h4"/></svg><h4>Stripe payments</h4><p>Transactions, subscriptions and sponsored-ad purchases.</p></div>
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12zM12 11.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg><h4>Maps &amp; commute</h4><p>Location search, map views and commute-time filters on AWS Lambda.</p></div>
-      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg><h4>Analytics &amp; ads</h4><p>Firebase, GA4, Tag Manager; sponsored placements with click tracking; push notifications.</p></div>
+    <div class="feats feats--3">
+      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h12l4 4v12H4zM8 12l3 3 5-6"/></svg><h4>DLD listing sync</h4><p>Listing and delisting through DLD registration APIs, kept in sync across the apps.</p></div>
+      <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 8 3 8H3s3-1 3-8M10 20a2 2 0 0 0 4 0"/></svg><h4>Push notifications</h4><p>Firebase Cloud Messaging for iOS and Android.</p></div>
       <div class="feat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6L3 10l6-1z"/></svg><h4>Releases</h4><p>iOS builds, TestFlight, App Store submission, and web on AWS Amplify.</p></div>
     </div>
 
@@ -209,7 +243,7 @@
           <ul>
             <li>Built the iOS, Android and web apps from one Flutter / Dart codebase, plus the agent CRM dashboard.</li>
             <li>Connected a Frappe (Python) backend with MySQL, MongoDB and AWS; DLD registration APIs keep the CRM and apps in sync.</li>
-            <li>Shipped the DLD transactions module, Reelly off-plan projects, the Ask Darify AI chatbot and Stripe payments.</li>
+            <li>Shipped the DLD transactions module, Reelly off-plan projects and the Ask Darify AI chatbot.</li>
             <li>Google Maps search with draw-to-search and commute filters; Firebase, GA4 and Tag Manager tracking; FCM push.</li>
             <li>Own releases: TestFlight and App Store for iOS, AWS Amplify for the web. Recently made search and the home page much faster.</li>
           </ul>
@@ -291,6 +325,6 @@
 
 <script src="js/vendor/gsap.min.js"></script>
 <script src="js/vendor/ScrollTrigger.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js?v=4"></script>
 </body>
 </html>
